@@ -1,0 +1,17 @@
+.taskList {
+    background: #181f28;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+@media all and (max-width: 720px) {
+    .taskList {
+        width: 100%; /* Réglez la largeur de la liste à 100% pour s'adapter à la largeur du parent */
+    }
+}
+
+@media all and (max-width: 468px) {
+    .taskList {
+        width: 100%; /* Réglez la largeur de la liste à 100% pour s'adapter à la largeur du parent */
+    }
+}

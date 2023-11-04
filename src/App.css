@@ -1,0 +1,43 @@
+html {
+  font-family: Lato, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: #121519;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+h2{
+font-size: 1.8rem;
+font-weight:400;
+color: aqua;
+}
+
+
+.container{
+  width: 1000px;
+  margin:auto;
+  padding: 20px;
+  text-align:left;
+  color:#fff
+}
+
+@media all and (max-width: 720px) {
+  .container{
+    width: 100%;
+  }
+}
+
+
+

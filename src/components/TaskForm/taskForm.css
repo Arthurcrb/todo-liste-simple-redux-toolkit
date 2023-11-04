@@ -1,0 +1,23 @@
+.taskForm {
+    background: #181f28;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+form.addForm{
+    width: 100%;
+}
+input.addTaskForm {
+    width: 100%; 
+    font-size: 1.2rem;
+}
+
+@media all and (max-width: 468px) {
+    .taskForm {
+        max-width: 250px;
+    }
+
+    input.addTaskForm {
+        width: 100%; 
+    }
+}

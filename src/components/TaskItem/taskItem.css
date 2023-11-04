@@ -1,0 +1,19 @@
+.buttonDelete{
+    cursor: pointer;
+    background :#fff;
+    padding: 2px;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+label{
+    font-size: 1.2rem;
+
+}
+input {
+    margin-right: 10px;
+}
+
+.taskItem{
+    margin-bottom: 20px;
+}
